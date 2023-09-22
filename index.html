@@ -21,10 +21,10 @@
 
 <body>
 
-    <!-- header element -->
     <div class="">
-        <!-- navbar -->
-        <div class="container-fluid d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start bg-white shadow-lg">
+        <!-- header and navbar -->
+        <header
+            class="container-fluid d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start bg-white shadow-lg pb-2 pb-lg-0">
 
 
             <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
@@ -106,7 +106,60 @@
                 </svg>
                 bgg
             </a> -->
-        </div>
+        </header>
+
+        <!-- main-->
+        <main class="container-fluid mt-3">
+            <div class="row">
+
+                <!-- slider -->
+                <div class="col-12 col-md-8">
+                    <!-- carousel -->
+                    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner ">
+                            <div class="carousel-item active" data-bs-interval="5000">
+                                <img src="images/294cc3243cf93584076b656b800e4dd6.jpg" class="d-block w-100" alt="...">
+                            </div>
+
+                            <div class="carousel-item" data-bs-interval="3000">
+                                <img src="images/9ad5f57f99d0c0d1e8d1095a7498f964.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="3000">
+                                <img src="images/9f5dee4d7ef8f4889ae22b1310c8cae4.jpg" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!--  -->
+                <div class="col6 col-md-4">
+
+                </div>
+                <div class="col6 col-md-4">
+
+                </div>
+            </div>
+
+        </main>
+
     </div>
 
 

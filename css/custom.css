@@ -1,9 +1,23 @@
-body{
-    /* background-color: black; */
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
 }
 
+
 /* header-icon */
-.header-icon{
+.header-icon {
     width: 48px;
     height: 48px;
+}
+
+/* carousel */
+.carousel-inner {
+    height: 400px !important;
+}
+
+.item,
+img {
+    height: 400px !important;
+    object-fit: fill;
 }
