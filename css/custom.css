@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-size: 16px;
 }
 
 
@@ -11,13 +12,31 @@
     height: 48px;
 }
 
-/* carousel */
-.carousel-inner {
-    height: 400px !important;
+/* footer */
+.icon-changing {
+    font-size: 1.8rem;
 }
 
-.item,
-img {
-    height: 400px !important;
-    object-fit: fill;
+.effect {
+    width: 2.9rem;
+    height: 2.9rem;
+    margin: 0 5px;
+    background: #dde1e7;
+    box-shadow: -3px -3px 7px #ffffff73,
+        3px 3px 5px rgba(94, 104, 121, 0.288);
+}
+
+#instagram-effect,
+#whatsapp-effect {
+    transition: all ease 0.5s;
+}
+
+#instagram-effect:hover {
+    box-shadow: -3px -3px 7px rgba(255, 0, 0, 0.514),
+        3px 3px 5px red;
+}
+
+#whatsapp-effect:hover {
+    box-shadow: -3px -3px 7px rgba(0, 128, 0, 0.514),
+        3px 3px 5px green;
 }
