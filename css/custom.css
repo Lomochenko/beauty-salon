@@ -40,3 +40,6 @@
     box-shadow: -3px -3px 7px rgba(0, 128, 0, 0.514),
         3px 3px 5px green;
 }
+.footerLinks a{
+    text-decoration: none;
+}
