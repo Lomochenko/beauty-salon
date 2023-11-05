@@ -40,6 +40,33 @@
     box-shadow: -3px -3px 7px rgba(0, 128, 0, 0.514),
         3px 3px 5px green;
 }
+
 .footerLinks a{
     text-decoration: none;
+}
+
+/* carousel(slider) */
+.carousel {
+    /* it can be responsive with max-width */
+    width: 100%;
+    height: 300px;
+}
+
+.carousel-inner {
+    /* make sure items will get correct height */
+    height: 100%;
+}
+
+.carousel-item {
+    background-size: cover;
+    background-position: 50% 50%;
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-item img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
